@@ -11,7 +11,7 @@ public class BreakingtheRecords {
 		int minCount = 0;
 		int maxCount = 0;
 
-		for (int i = 1; i < scores.length; i++) {
+		for (int i = 1, length = scores.length; i < length; i++) {
 			if (scores[i] > max) {
 				maxCount++;
 				max = scores[i];
