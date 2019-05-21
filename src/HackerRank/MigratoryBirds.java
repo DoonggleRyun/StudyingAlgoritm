@@ -16,9 +16,31 @@ public class MigratoryBirds {
 
 	// Complete the migratoryBirds function below.
 	static int migratoryBirds(List<Integer> arr) {
-		int temp =0;
+		
+		int result = 0;
+		
+		int tempArr[] = new int[arr.size()];
+		
+		Collections.sort(arr);
+		
+		for (int i = 0; i < arr.size(); i++) {
+			for (int j = i+1; j < arr.size(); j++) {
+				if(arr.get(i)==arr.get(j)){
+					tempArr[i]++;
+				}
+			}
+			
+		}
+		
 
-		return temp;
+		
+		for(int i=0; i<tempArr.length; i++){
+			
+		}
+		
+		
+
+		return result;
 
 	}
 
