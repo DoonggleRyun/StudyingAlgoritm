@@ -33,7 +33,7 @@ public class MigratoryBirds {
 		}
 
 		for (int i = 0; i < tempArr.length; i++) {
-
+			// System.out.println("은근 어렵네...");
 		}
 
 		return result;
